@@ -12,6 +12,15 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Bungee Inline`
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'post',

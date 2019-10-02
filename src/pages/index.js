@@ -39,6 +39,10 @@ const Hero = styled.div`
       font-size: 1.25rem;
     }
   }
+
+  .logo {
+    font-family: Bungee Inline;
+  }
 `
 
 const IndexPage = ({
